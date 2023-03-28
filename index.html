@@ -5,20 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>老王八</title>
+    <title>lwb</title>
     <style>
-        video {
+        .div{
             margin: 0 auto;
-            width: fit-content;
+            width: 640px;
+            height: auto;
+        }
+        video{
+            width: 640px;
+            height: auto;
+            margin: 0 auto;
+            display: block;
         }
     </style>
 </head>
 
 <body>
-    <video width="640" height="640" autoplay>
-        <source src="video/lwb.mp4" type="video/mp4">
-    </video>
-      
+    <div class="div">
+        <video controls="controls">
+            <source src="video/lwb.mp4" type="video/mp4">
+        </video>
+    </div>
 </body>
 
 </html>
